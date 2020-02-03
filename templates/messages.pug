@@ -1,0 +1,7 @@
+
+if flash && flash.success
+  h1 Congratulation you sign msg: #{flash.success}!!!
+else if flash && flash.error
+  h1 Dont sign in Invalid data msg: #{flash.error}!!!
+else 
+  h2 Nothing
